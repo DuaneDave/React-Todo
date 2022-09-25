@@ -1,9 +1,8 @@
-/*eslint-disable*/
-import React from 'react';
+import React, { PureComponent } from 'react';
 
 import TodoItem from './TodoItem';
 
-class TodosList extends React.Component {
+class TodosList extends PureComponent {
   render() {
     return (
       <ul>
