@@ -1,12 +1,11 @@
-/* eslint-disable */
-import React from 'react';
+import React, { PureComponent } from 'react';
 
 import Header from './Header';
 import TodosList from './TodosList';
 import InputTodo from './InputTodo';
 import { v4 as uuidv4 } from 'uuid';
 
-class TodoContainer extends React.Component {
+class TodoContainer extends PureComponent {
   state = {
     todos: [
       {

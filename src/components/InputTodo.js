@@ -1,9 +1,7 @@
-/*eslint-disable*/
-
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import '../App.css';
 
-class InputTodo extends Component {
+class InputTodo extends PureComponent {
   state = {
     title: '',
   };
