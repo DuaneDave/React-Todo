@@ -1,9 +1,7 @@
-/*eslint-disable*/
-
-import React from 'react';
+import React, { PureComponent } from 'react';
 import styles from './TodoItem.module.css';
 
-class TodoItem extends React.Component {
+class TodoItem extends PureComponent {
   render() {
     const { completed, id, title } = this.props.todo;
 
